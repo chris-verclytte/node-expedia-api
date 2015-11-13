@@ -33,7 +33,7 @@ Usage requires an Expedia Api key and CID.  For development use you can use the 
         currencyCode :"USD"  // optional defaults to USD
     };
 
-var expedia = require("expedia")(options, sendAsREST);
+var expedia = require("yfb-expedia")(options, sendAsREST);
 ```
 sendAsREST parameter allows you to choose if you want to send your data in XML or REST format (forgetting the param sets format to XML).
 Note that usage of XML is going to be deprecated by Expedia.
